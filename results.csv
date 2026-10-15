@@ -1,0 +1,11 @@
+operation,input_bytes,output_bytes,mean_ms,stdev_ms
+AES-256-GCM encrypt,223,239,0.0053,0.0451
+AES-256-GCM decrypt,239,223,0.0040,0.0390
+RSA-2048 sign (PSS),223,256,0.5265,0.1988
+RSA-2048 verify,256,1,0.0297,0.0085
+ECDSA P-256 sign,223,71,0.0577,0.3585
+ECDSA P-256 verify,71,1,0.0940,0.0197
+SHA-256 hash,223,32,0.0013,0.0027
+HMAC-SHA256,223,32,0.0035,0.0027
+RSA-2048 keygen (once),,,68.57,
+ECDSA P-256 keygen (once),,,1.42,
